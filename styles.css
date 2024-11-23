@@ -20,18 +20,18 @@
   }
   
   .text-container {
-    /* Position text in the center */
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+      /* Position text in the center */
+      position: absolute;
+      top: 75%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: right; /* Align text to the right */
+      color: white;
+      text-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
   }
   
   h1 {
-    font-size: 10rem;
+    font-size: 7rem;
     margin-bottom: 0.5rem;
   }
   
@@ -46,7 +46,7 @@
   }
   
   a {
-    color: #ffd700;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
   }
@@ -57,7 +57,7 @@
   
   @media screen and (max-width: 768px) {
     h1 {
-      font-size: 4rem;
+      font-size: 3rem;
     }
   
     h2 {
